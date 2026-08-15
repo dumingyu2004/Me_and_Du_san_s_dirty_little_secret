@@ -1,0 +1,81 @@
+{
+  "run_date": "2026-08-15",
+  "timezone": "Australia/Sydney",
+  "remote_host": "Ronnie",
+  "source_checkout_commit": "6d2e5c0714c1a55eee3e87a6605f7e148cf6d891",
+  "split": {
+    "legacy_leakage": {"numerator": 118, "denominator": 150, "fraction": 0.787},
+    "formal_fold_disjoint": {"numerator": 0, "denominator": 151, "fraction": 0.0},
+    "cells_evaluated": 18,
+    "split_level": "fold",
+    "split_seed": 42
+  },
+  "formal_structural": {
+    "overall_mean_struct_delta": 0.009486395978911247,
+    "overall_median_struct_delta": 0.006240247570833334,
+    "positive_fraction": 0.5904296875,
+    "by_arm_layer": {
+      "MLM_L11": 0.018714870260783983,
+      "MLM_L14": 0.016702713262014973,
+      "MLM_L18": 0.014189237724248502,
+      "CLM_L11": 0.0016687879546832811,
+      "CLM_L14": 0.0014727561664904557,
+      "CLM_L18": 0.004170010505246289
+    }
+  },
+  "formal_concept_f1": {
+    "overall_mean_test_f1": 0.425532,
+    "overall_sd_test_f1": 0.035894,
+    "overall_mean_concepts_test_f1_gt_0_5": 3.67,
+    "by_arm_layer": {
+      "MLM_L11": {"test_f1_mean": 0.472562, "test_f1_sd": 0.013333, "concepts_gt_0_5_mean": 5.33, "aligned_features_mean": 2086.3},
+      "MLM_L14": {"test_f1_mean": 0.452057, "test_f1_sd": 0.019914, "concepts_gt_0_5_mean": 4.33, "aligned_features_mean": 2174.7},
+      "MLM_L18": {"test_f1_mean": 0.445692, "test_f1_sd": 0.003775, "concepts_gt_0_5_mean": 4.33, "aligned_features_mean": 2332.0},
+      "CLM_L11": {"test_f1_mean": 0.411589, "test_f1_sd": 0.007147, "concepts_gt_0_5_mean": 3.33, "aligned_features_mean": 2537.7},
+      "CLM_L14": {"test_f1_mean": 0.397685, "test_f1_sd": 0.007808, "concepts_gt_0_5_mean": 2.67, "aligned_features_mean": 2484.7},
+      "CLM_L18": {"test_f1_mean": 0.373608, "test_f1_sd": 0.006481, "concepts_gt_0_5_mean": 2.0, "aligned_features_mean": 2365.7}
+    }
+  },
+  "formal_trivial_floor": {
+    "overall_test_f1": 0.3643,
+    "overall_margin_over_floor": -0.1349,
+    "overall_mean_labels_beaten_of_3": 0.33,
+    "by_arm_layer": {
+      "MLM_L11": {"test_f1": 0.4236, "margin": -0.0755, "labels_beaten_of_3": 0.67},
+      "MLM_L14": {"test_f1": 0.4150, "margin": -0.0842, "labels_beaten_of_3": 1.0},
+      "MLM_L18": {"test_f1": 0.4107, "margin": -0.0884, "labels_beaten_of_3": 0.33},
+      "CLM_L11": {"test_f1": 0.3441, "margin": -0.1550, "labels_beaten_of_3": 0.0},
+      "CLM_L14": {"test_f1": 0.3164, "margin": -0.1828, "labels_beaten_of_3": 0.0},
+      "CLM_L18": {"test_f1": 0.2756, "margin": -0.2235, "labels_beaten_of_3": 0.0}
+    }
+  },
+  "formal_global_probe": {
+    "overall_auroc_mean": 0.7854,
+    "overall_auroc_sd": 0.0943,
+    "overall_ap_mean": 0.8706,
+    "overall_shuffled_control": 0.4995,
+    "by_arm_layer": {
+      "MLM_L11": {"auroc_mean": 0.7030, "auroc_sd": 0.0666, "ap_mean": 0.8362, "shuffled_control": 0.5166},
+      "MLM_L14": {"auroc_mean": 0.7214, "auroc_sd": 0.1128, "ap_mean": 0.8274, "shuffled_control": 0.4966},
+      "MLM_L18": {"auroc_mean": 0.7294, "auroc_sd": 0.0603, "ap_mean": 0.8415, "shuffled_control": 0.4920},
+      "CLM_L11": {"auroc_mean": 0.8154, "auroc_sd": 0.0412, "ap_mean": 0.8847, "shuffled_control": 0.4978},
+      "CLM_L14": {"auroc_mean": 0.8794, "auroc_sd": 0.0291, "ap_mean": 0.9204, "shuffled_control": 0.4968},
+      "CLM_L18": {"auroc_mean": 0.8638, "auroc_sd": 0.0116, "ap_mean": 0.9131, "shuffled_control": 0.4973}
+    }
+  },
+  "legacy_reference": {
+    "struct_delta_mean": 0.009473899622383162,
+    "struct_delta_median": 0.006248168337777778,
+    "struct_delta_positive_fraction": 0.5887369791666667,
+    "trivial_floor_test_f1": 0.3631,
+    "global_probe_auroc": 0.7821,
+    "global_probe_ap": 0.8675,
+    "global_probe_shuffled_control": 0.5012
+  },
+  "caveats": [
+    "Stage-1 comparability gate failed: causal vs masked dictionaries differed by about 1.30x in live features and 1.71x in L0.",
+    "Raw-vs-SAE global contrast was unavailable because outputs_raw_real/.../X.npy was absent.",
+    "Job 4 (500 tokens per protein) remained on hold.",
+    "Large model/activation binaries remain on Ronnie and are intentionally not copied into this GitHub commit."
+  ]
+}
