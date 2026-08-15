@@ -1,0 +1,9 @@
+{
+  "split_level": "fold",
+  "split_seed": 42,
+  "held_out_count": 151,
+  "source_eval_set": "outputs_layerwise/esm2/layer_16",
+  "construction": "make_folddisjoint_eval_set.py from eval_set/META.json",
+  "fold_overlap_with_fit": 0,
+  "note": "No SCOPe fold appears in both the fit and held-out sets. Sizes match the original split."
+}
