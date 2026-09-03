@@ -1,0 +1,77 @@
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/verify_paper_claims.py:125: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tf.extractall(tmp)
+unpacked 4 archive(s) to /tmp/verify_ax0xnp_6
+
+============================================================================================
+verify_paper_claims.py   /tmp/verify_ax0xnp_6
+  native cells 153 | order-destroyed 54 | block-shuffled 18
+============================================================================================
+
+consistency
+  [PASS   ] native cells agree across archives             paper: identical                  computed: 0 clash(es)
+  [PASS   ] order-destroyed cells agree across archives    paper: identical                  computed: 0 clash(es)
+
+§4.1
+  [PASS   ] corpus control at blocks 11/14/18              paper: 18/18                      computed: 18/18
+  [INFO   ] corpus control, all depths delivered           paper: (new)                      computed: 52/54
+            falls: ckpt_mlm_s44_token L26, ckpt_mlm_s44_token L29
+  [PASS   ] CLM native mean over 11/14/18                  paper: +0.00240                   computed: +0.00240
+  [PASS   ] MLM native mean over 11/14/18                  paper: +0.01655                   computed: +0.01655
+  [PASS   ] CLM order-destroyed mean over 11/14/18         paper: +0.05201                   computed: +0.05201
+  [PASS   ] MLM order-destroyed mean over 11/14/18         paper: +0.02730                   computed: +0.02730
+
+Table 2
+  [PASS   ] trained MLM block 11                           paper: +0.01881                   computed: +0.01881
+  [PASS   ] trained MLM block 14                           paper: +0.01667                   computed: +0.01667
+  [PASS   ] trained MLM block 18                           paper: +0.01417                   computed: +0.01417
+  [PASS   ] trained CLM block 11                           paper: +0.00162                   computed: +0.00162
+  [PASS   ] trained CLM block 14                           paper: +0.00144                   computed: +0.00144
+  [PASS   ] trained CLM block 18                           paper: +0.00413                   computed: +0.00413
+
+§2.2
+  [PASS   ] Delta, original split, mean over 11/14/18      paper: +0.01415                   computed: +0.01415
+
+§5
+  [PASS   ] rise survives the sd denominator               paper: not tested                 computed: 18/18 rise, median +0.02966
+  [PASS   ] rise survives the fixed denominator            paper: not tested                 computed: 18/18 rise, median +0.00348
+  [PASS   ] rise survives the iqr denominator              paper: not tested                 computed: 18/18 rise, median +0.02228
+  [PASS   ] rise survives the rank denominator             paper: not tested                 computed: 18/18 rise, median +0.03050
+  [INFO   ] second destruction procedure (block shuffle)   paper: not run                    computed: 14/18 rise
+            CLM 9/9 | MLM 5/9
+
+§4.6
+  [PASS   ] d_struct corpus control, CLM, gate=global      paper: fails                      computed: fails (9/9 cells)
+
+Table 5
+  [INFO   ] d_struct random-init, CLM, gate=global         paper: no verdict - not run       computed: passes (trained +0.5863 vs untrained +0.2630)
+
+§4.6
+  [PASS   ] d_struct corpus control, MLM, gate=global      paper: passes                     computed: passes (0/9 cells)
+
+Table 5
+  [INFO   ] d_struct random-init, MLM, gate=global         paper: no verdict - not run       computed: passes (trained +0.1590 vs untrained -0.0358)
+
+§4.6
+  [PASS   ] d_struct corpus control, CLM, gate=raw         paper: fails                      computed: fails (9/9 cells)
+
+Table 5
+  [INFO   ] d_struct random-init, CLM, gate=raw            paper: no verdict - not run       computed: passes (trained +0.4666 vs untrained +0.1969)
+
+§4.6
+  [PASS   ] d_struct corpus control, MLM, gate=raw         paper: passes                     computed: passes (0/9 cells)
+
+Table 5
+  [INFO   ] d_struct random-init, MLM, gate=raw            paper: no verdict - not run       computed: passes (trained +0.1260 vs untrained -0.0771)
+
+§4.3
+  [CHANGED] probes at block 18 (linear), causal favoured   paper: 27/27 at blocks 7/11/14    computed: 3/9
+            helix 0/3 | strand 3/3 | burial 0/3
+  [CHANGED] probes at block 18 (MLP), causal favoured      paper: 27/27 at blocks 7/11/14    computed: 2/9
+            helix 0/3 | strand 2/3 | burial 0/3
+
+--------------------------------------------------------------------------------------------
+  22 pass, 2 changed, 0 missing, 6 new
+
+  CHANGED — the paper says something this data does not:
+    §4.3 probes at block 18 (linear), causal favoured: 27/27 at blocks 7/11/14 -> 3/9
+    §4.3 probes at block 18 (MLP), causal favoured: 27/27 at blocks 7/11/14 -> 2/9

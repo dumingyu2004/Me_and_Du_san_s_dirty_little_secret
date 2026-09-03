@@ -1,0 +1,20 @@
+========================================================================================
+R9  Multiplicity across the 9 depths (cluster_level=fold, BH-FDR alpha=0.05)
+========================================================================================
+rel_depth  d_point  ci_low  ci_high  frac_pos  p_boot   q_BH  sig_FDR
+       0%   0.0117 -0.0253   0.0444    0.7360  0.5280 0.5280    False
+      13%   0.0826  0.0208   0.1096    0.9990  0.0020 0.0023     True
+      25%   0.3222  0.1978   0.2979    1.0000  0.0010 0.0015     True
+      38%   0.4036  0.2947   0.4039    1.0000  0.0010 0.0015     True
+      50%   0.4299  0.3284   0.4388    1.0000  0.0010 0.0015     True
+      63%   0.2906  0.1929   0.3409    1.0000  0.0010 0.0015     True
+      75%   0.2040  0.0764   0.3075    0.9990  0.0020 0.0023     True
+      88%   0.2954  0.1588   0.3864    1.0000  0.0010 0.0015     True
+     100%   0.3837  0.2609   0.4632    1.0000  0.0010 0.0015     True
+  survive BH-FDR: 8/9
+
+  OMNIBUS (mean effect pooled across depths, within the SAME cluster resamples):
+    [full, n=9 depths] mean d = +0.2413  95% CI [+0.1927, +0.2913]  frac>0 = 1.000
+    [val, n=9 depths] mean d = +0.1587  95% CI [+0.1108, +0.2069]  frac>0 = 1.000
+    (one pre-registered global test; report ALONGSIDE the per-depth CIs, not instead)
+

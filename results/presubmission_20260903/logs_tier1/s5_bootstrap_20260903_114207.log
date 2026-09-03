@@ -1,0 +1,192 @@
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+========================================================================
+  H1 cluster bootstrap — preset=ctrl_esmc
+  ckpt_mlm_s42_token (bidirectional) vs ckpt_clm_s42 (causal)
+  N_BOOT=1000  N_SHUF=5  TOPK_FRAC=0.1  min_active=0
+========================================================================
+
+Loading shared protein metadata + structural adjacency...
+  n_proteins=1500, val_proteins=150, n_residues=293760
+  Building neighbor graphs for 1500 proteins using -1 workers...
+    Contact cutoff: 8.0 Å, Sequence gap: ≥12 residues
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 32 concurrent workers.
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+[Parallel(n_jobs=-1)]: Done   8 tasks      | elapsed:    8.1s
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+[Parallel(n_jobs=-1)]: Done  98 tasks      | elapsed:    8.6s
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+[Parallel(n_jobs=-1)]: Done 234 tasks      | elapsed:    9.1s
+[Parallel(n_jobs=-1)]: Done 744 tasks      | elapsed:   11.2s
+[Parallel(n_jobs=-1)]: Done 1386 tasks      | elapsed:   13.7s
+[Parallel(n_jobs=-1)]: Done 1500 out of 1500 | elapsed:   14.5s finished
+  adjacency: 857,536 edges  (15s)
+  cluster-level=fold (two-stage): 432 clusters / 1500 proteins (mean 3.47, max 65)
+  cluster-level=protein (two-stage): 1500 clusters / 1500 proteins (mean 1.00, max 1)
+
+  Will process 9 depth pairs: ['0%', '13%', '25%', '38%', '50%', '63%', '75%', '88%', '100%']
+
+--- depth 0%: ckpt_mlm_s42_token L0 vs ckpt_clm_s42 L0 ---
+  ckpt_mlm_s42_token contributions: 46s
+  ckpt_clm_s42 contributions: 43s
+  [fold       ] full d_pt=+0.0117 dbar=+0.0109 CI=[-0.0253,+0.0444] fracpos=0.736 | Deff=1.37 n_eff=1091 (42s)
+  [protein    ] full d_pt=+0.0117 dbar=+0.0093 CI=[-0.0269,+0.0416] fracpos=0.714 | Deff=nan n_eff=1500 (42s)
+
+--- depth 13%: ckpt_mlm_s42_token L4 vs ckpt_clm_s42 L4 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.0826 dbar=+0.0664 CI=[+0.0208,+0.1096] fracpos=0.999 | Deff=1.32 n_eff=1133 (48s)
+  [protein    ] full d_pt=+0.0826 dbar=+0.0700 CI=[+0.0341,+0.1023] fracpos=1.000 | Deff=nan n_eff=1500 (44s)
+
+--- depth 25%: ckpt_mlm_s42_token L7 vs ckpt_clm_s42 L7 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.3222 dbar=+0.2532 CI=[+0.1978,+0.2979] fracpos=1.000 | Deff=1.38 n_eff=1090 (42s)
+  [protein    ] full d_pt=+0.3222 dbar=+0.2744 CI=[+0.2332,+0.3116] fracpos=1.000 | Deff=nan n_eff=1500 (42s)
+
+--- depth 38%: ckpt_mlm_s42_token L11 vs ckpt_clm_s42 L11 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.4036 dbar=+0.3519 CI=[+0.2947,+0.4039] fracpos=1.000 | Deff=1.36 n_eff=1100 (42s)
+  [protein    ] full d_pt=+0.4036 dbar=+0.3697 CI=[+0.3297,+0.4080] fracpos=1.000 | Deff=nan n_eff=1500 (42s)
+
+--- depth 50%: ckpt_mlm_s42_token L14 vs ckpt_clm_s42 L14 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.4299 dbar=+0.3888 CI=[+0.3284,+0.4388] fracpos=1.000 | Deff=1.59 n_eff=944 (42s)
+  [protein    ] full d_pt=+0.4299 dbar=+0.4052 CI=[+0.3642,+0.4448] fracpos=1.000 | Deff=nan n_eff=1500 (42s)
+
+--- depth 63%: ckpt_mlm_s42_token L18 vs ckpt_clm_s42 L18 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 45s
+  [fold       ] full d_pt=+0.2906 dbar=+0.2694 CI=[+0.1929,+0.3409] fracpos=1.000 | Deff=2.01 n_eff=746 (43s)
+  [protein    ] full d_pt=+0.2906 dbar=+0.2797 CI=[+0.2337,+0.3240] fracpos=1.000 | Deff=nan n_eff=1500 (43s)
+
+--- depth 75%: ckpt_mlm_s42_token L22 vs ckpt_clm_s42 L22 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.2040 dbar=+0.1899 CI=[+0.0764,+0.3075] fracpos=0.999 | Deff=2.26 n_eff=665 (41s)
+  [protein    ] full d_pt=+0.2040 dbar=+0.1978 CI=[+0.1420,+0.2539] fracpos=1.000 | Deff=nan n_eff=1500 (41s)
+
+--- depth 88%: ckpt_mlm_s42_token L26 vs ckpt_clm_s42 L26 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.2954 dbar=+0.2765 CI=[+0.1588,+0.3864] fracpos=1.000 | Deff=2.44 n_eff=616 (40s)
+  [protein    ] full d_pt=+0.2954 dbar=+0.2876 CI=[+0.2311,+0.3409] fracpos=1.000 | Deff=nan n_eff=1500 (40s)
+
+--- depth 100%: ckpt_mlm_s42_token L29 vs ckpt_clm_s42 L29 ---
+  ckpt_mlm_s42_token contributions: 44s
+  ckpt_clm_s42 contributions: 44s
+  [fold       ] full d_pt=+0.3837 dbar=+0.3647 CI=[+0.2609,+0.4632] fracpos=1.000 | Deff=2.53 n_eff=593 (42s)
+  [protein    ] full d_pt=+0.3837 dbar=+0.3758 CI=[+0.3271,+0.4203] fracpos=1.000 | Deff=nan n_eff=1500 (42s)
+
+========================================================================
+  FULL-set bootstrap (1500 proteins resampled with replacement)
+========================================================================
+rel_depth layer_pair cluster_level            model_a      model_b    preset  d_point  ci_low  ci_high  frac_pos  n_proteins_used  d_boot_mean  d_boot_sd     icc  design_effect      n_eff  n_clusters
+       0%      L0/L0          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0117 -0.0253  +0.0444   +0.7360             1500      +0.0109    +0.0180 +0.1517        +1.3750 +1090.9225         432
+       0%      L0/L0       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0117 -0.0269  +0.0416   +0.7140             1500      +0.0093    +0.0176     NaN            NaN +1500.0000        1500
+      13%      L4/L4          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0826 +0.0208  +0.1096   +0.9990             1500      +0.0664    +0.0229 +0.1309        +1.3237 +1133.1649         432
+      13%      L4/L4       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0826 +0.0341  +0.1023   +1.0000             1500      +0.0700    +0.0174     NaN            NaN +1500.0000        1500
+      25%      L7/L7          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.3222 +0.1978  +0.2979   +1.0000             1500      +0.2532    +0.0263 +0.1520        +1.3758 +1090.3022         432
+      25%      L7/L7       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.3222 +0.2332  +0.3116   +1.0000             1500      +0.2744    +0.0201     NaN            NaN +1500.0000        1500
+      38%    L11/L11          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.4036 +0.2947  +0.4039   +1.0000             1500      +0.3519    +0.0275 +0.1471        +1.3637 +1099.9556         432
+      38%    L11/L11       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.4036 +0.3297  +0.4080   +1.0000             1500      +0.3697    +0.0207     NaN            NaN +1500.0000        1500
+      50%    L14/L14          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.4299 +0.3284  +0.4388   +1.0000             1500      +0.3888    +0.0278 +0.2382        +1.5888  +944.0921         432
+      50%    L14/L14       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.4299 +0.3642  +0.4448   +1.0000             1500      +0.4052    +0.0199     NaN            NaN +1500.0000        1500
+      63%    L18/L18          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2906 +0.1929  +0.3409   +1.0000             1500      +0.2694    +0.0371 +0.4089        +2.0109  +745.9202         432
+      63%    L18/L18       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2906 +0.2337  +0.3240   +1.0000             1500      +0.2797    +0.0233     NaN            NaN +1500.0000        1500
+      75%    L22/L22          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2040 +0.0764  +0.3075   +0.9990             1500      +0.1899    +0.0581 +0.5078        +2.2555  +665.0411         432
+      75%    L22/L22       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2040 +0.1420  +0.2539   +1.0000             1500      +0.1978    +0.0286     NaN            NaN +1500.0000        1500
+      88%    L26/L26          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2954 +0.1588  +0.3864   +1.0000             1500      +0.2765    +0.0579 +0.5806        +2.4354  +615.9154         432
+      88%    L26/L26       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2954 +0.2311  +0.3409   +1.0000             1500      +0.2876    +0.0278     NaN            NaN +1500.0000        1500
+     100%    L29/L29          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.3837 +0.2609  +0.4632   +1.0000             1500      +0.3647    +0.0508 +0.6190        +2.5303  +592.8159         432
+     100%    L29/L29       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.3837 +0.3271  +0.4203   +1.0000             1500      +0.3758    +0.0231     NaN            NaN +1500.0000        1500
+
+========================================================================
+  VAL-set bootstrap (150 proteins resampled with replacement)
+========================================================================
+rel_depth layer_pair cluster_level            model_a      model_b    preset  d_point  ci_low  ci_high  frac_pos  n_proteins_used  d_boot_mean  d_boot_sd
+       0%      L0/L0          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0031 -0.0479  +0.0389   +0.6220              150      +0.0043    +0.0214
+       0%      L0/L0       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0031 -0.0438  +0.0347   +0.5950              150      +0.0021    +0.0210
+      13%      L4/L4          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0580 +0.0095  +0.0770   +0.9900              150      +0.0453    +0.0172
+      13%      L4/L4       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0580 +0.0150  +0.0793   +0.9980              150      +0.0478    +0.0158
+      25%      L7/L7          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0686 +0.0408  +0.1552   +1.0000              150      +0.0807    +0.0330
+      25%      L7/L7       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.0686 +0.0418  +0.1516   +1.0000              150      +0.0832    +0.0335
+      38%    L11/L11          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2016 +0.0967  +0.2270   +1.0000              150      +0.1621    +0.0343
+      38%    L11/L11       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2016 +0.1082  +0.2268   +1.0000              150      +0.1670    +0.0303
+      50%    L14/L14          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2597 +0.1363  +0.2762   +1.0000              150      +0.2076    +0.0351
+      50%    L14/L14       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2597 +0.1534  +0.2799   +1.0000              150      +0.2138    +0.0320
+      63%    L18/L18          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2820 +0.1509  +0.3077   +1.0000              150      +0.2305    +0.0410
+      63%    L18/L18       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2820 +0.1613  +0.3092   +1.0000              150      +0.2350    +0.0374
+      75%    L22/L22          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2000 +0.0819  +0.2570   +1.0000              150      +0.1662    +0.0452
+      75%    L22/L22       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2000 +0.0947  +0.2498   +1.0000              150      +0.1706    +0.0393
+      88%    L26/L26          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2827 +0.1391  +0.3513   +1.0000              150      +0.2380    +0.0539
+      88%    L26/L26       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.2827 +0.1610  +0.3343   +1.0000              150      +0.2449    +0.0455
+     100%    L29/L29          fold ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.3375 +0.1923  +0.3917   +1.0000              150      +0.2932    +0.0503
+     100%    L29/L29       protein ckpt_mlm_s42_token ckpt_clm_s42 ctrl_esmc  +0.3375 +0.2154  +0.3854   +1.0000              150      +0.3016    +0.0422
+
+Written: /home/ronnie/Me_and_Du_san_s_dirty_little_secret/outputs_robustness/bootstrap_h1_ctrl_esmc_full_bylevel_minact0.csv
+         /home/ronnie/Me_and_Du_san_s_dirty_little_secret/outputs_robustness/bootstrap_h1_ctrl_esmc_val_bylevel_minact0.csv
+         /home/ronnie/Me_and_Du_san_s_dirty_little_secret/outputs_robustness/bootstrap_h1_ctrl_esmc_traces_bylevel_minact0.npz

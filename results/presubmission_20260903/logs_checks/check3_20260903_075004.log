@@ -1,0 +1,33 @@
+=== pricing the current split ===
+CURRENT split (uniform random over domains):
+  domains            : 1500  (1350 fit / 150 held out)
+  distinct folds     : 432
+  held-out domains sharing a fold with the fit set: 118 / 150  (78.7%)
+/home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/lib/python3.12/site-packages/Bio/pairwise2.py:278: BiopythonDeprecationWarning: Bio.pairwise2 has been deprecated, and we intend to remove it in a future release of Biopython. As an alternative, please consider using Bio.Align.PairwiseAligner as a replacement, and contact the Biopython developers if you still need the Bio.pairwise2 module.
+  warnings.warn(
+
+NEW split (fold-disjoint, seed 42, val_frac 0.100):
+  domains            : 1500  (1349 fit / 151 held out)
+  distinct folds     : 432
+  held-out domains sharing a fold with the fit set: 0 / 151  (0.0%)
+
+  wrote eval_set_folddisj/  (151 held out; ~134 domains differ from the old split)
+  use it with:  python eval_ctrl_plm.py --eval-set eval_set_folddisj ...
+  [done] ckpt_mlm_s42_token L11
+  [done] ckpt_mlm_s42_token L14
+  [done] ckpt_mlm_s42_token L18
+  [done] ckpt_clm_s42 L11
+  [done] ckpt_clm_s42 L14
+  [done] ckpt_clm_s42 L18
+  [done] ckpt_mlm_s43_token L11
+  [done] ckpt_mlm_s43_token L14
+  [done] ckpt_mlm_s43_token L18
+  [done] ckpt_clm_s43 L11
+  [done] ckpt_clm_s43 L14
+  [done] ckpt_clm_s43 L18
+  [done] ckpt_mlm_s44_token L11
+  [done] ckpt_mlm_s44_token L14
+  [done] ckpt_mlm_s44_token L18
+  [done] ckpt_clm_s44 L11
+  [done] ckpt_clm_s44 L14
+  [done] ckpt_clm_s44 L18

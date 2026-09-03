@@ -1,0 +1,108 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+QUEUE_START 2026-09-03T11:37:04+08:00 HEAD=e3920476c4ab13c2962c7a27372e1c0d687f7ab9
+STEP_START rebuild_nine_depth_Z 2026-09-03T11:37:04+08:00
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+   interpreter: /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python  (PYTHONUNBUFFERED=1)
+
+[1m== STAGE 0 — rebuild Z.npy where missing (needed by stage 1)[0m
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_mlm_s42_token/model_final.pt --name ckpt_mlm_s42_token --layer 0 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_mlm_s42_token_L0
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_mlm_s42_token/model_final.pt --name ckpt_mlm_s42_token --layer 4 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_mlm_s42_token_L4
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_mlm_s42_token/model_final.pt --name ckpt_mlm_s42_token --layer 7 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_mlm_s42_token_L7
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_mlm_s42_token/model_final.pt --name ckpt_mlm_s42_token --layer 22 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_mlm_s42_token_L22
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_mlm_s42_token/model_final.pt --name ckpt_mlm_s42_token --layer 26 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_mlm_s42_token_L26
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_mlm_s42_token/model_final.pt --name ckpt_mlm_s42_token --layer 29 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_mlm_s42_token_L29
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_clm_s42/model_final.pt --name ckpt_clm_s42 --layer 0 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_clm_s42_L0
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_clm_s42/model_final.pt --name ckpt_clm_s42 --layer 4 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_clm_s42_L4
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_clm_s42/model_final.pt --name ckpt_clm_s42 --layer 7 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_clm_s42_L7
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_clm_s42/model_final.pt --name ckpt_clm_s42 --layer 22 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_clm_s42_L22
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_clm_s42/model_final.pt --name ckpt_clm_s42 --layer 26 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_clm_s42_L26
+   -> /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python eval_ctrl_plm.py --ckpt /home/ronnie/own_sae_data/uniref50_pilot/ckpt_clm_s42/model_final.pt --name ckpt_clm_s42 --layer 29 --out-root outputs_ctrl --eval-set eval_set --sae-seed 42 --expansion 8 --k-sparse 256
+   [32mOK[0m  s0_outputs_ctrl_ckpt_clm_s42_L29
+   (rebuilt 12 cell(s); struct_seq_metrics.csv was not touched)
+
+[1m== STAGE 1 — InterPLM settings (6 A, no separation floor) vs our default[0m
+   [32mOK[0m  outputs_ctrl cached
+   [32mOK[0m  outputs_ctrl_shuf cached
+   compare: results_interplm_def_outputs_ctrl_shuf/contact_def_sweep.csv
+            / results_interplm_def_outputs_ctrl/contact_def_sweep.csv
+   the shuffled/real ratio at (6 A, gap 1) is the number that decides it.
+
+[1m== summary[0m
+
+   Now run:  /home/ronnie/Me_and_Du_san_s_dirty_little_secret/.venv/bin/python summarize_reviewer_batch.py
+   It computes every comparison these stages exist to make. Send me its
+   output as well as the results directories.
+   [32mOK[0m  all attempted stages completed
+STEP_END rebuild_nine_depth_Z rc=0 2026-09-03T11:42:07+08:00
+STEP_START bh_nine_depths 2026-09-03T11:42:07+08:00
+bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+########## RUN_TIER1 | rev e392047 | started Thu Sep  3 11:42:07 CST 2026 ##########
+  seeds: 42 43 44 | depths: 11 14 18 | n_shuffles: 5
+
+============================================================
+  preflight
+============================================================
+  layer dirs with Z.npy in scope: 36
+  preflight OK
+
+============================================================
+  STAGE 5  Benjamini-Hochberg across the nine depths (CPU)
+============================================================
+  no outputs_robustness/bootstrap_h1_ctrl_esmc_full_bylevel_minact0.csv — building it (preset ctrl_esmc, not the ESM-2/RITA default)
+    Written: /home/ronnie/Me_and_Du_san_s_dirty_little_secret/outputs_robustness/bootstrap_h1_ctrl_esmc_full_bylevel_minact0.csv
+             /home/ronnie/Me_and_Du_san_s_dirty_little_secret/outputs_robustness/bootstrap_h1_ctrl_esmc_val_bylevel_minact0.csv
+             /home/ronnie/Me_and_Du_san_s_dirty_little_secret/outputs_robustness/bootstrap_h1_ctrl_esmc_traces_bylevel_minact0.npz
+  R9  Multiplicity across the 9 depths (cluster_level=fold, BH-FDR alpha=0.05)
+    survive BH-FDR: 8/9
+    OMNIBUS (mean effect pooled across depths, within the SAME cluster resamples):
+
+============================================================
+  packaging
+============================================================
+  wrote tier1_results_20260903.tgz  (17M)
+
+============================================================
+  already scripted — run these separately, this script does not duplicate them
+============================================================
+  100-permutation null
+      NSHUF_HI=100 ONLY=2 bash run_checks.sh
+      run_checks.sh stage 2 already drives this; only the value changes.
+
+  Fold-disjoint refit of the corpus control
+      FOLDDISJ_APPLY=1 ONLY=3 bash run_checks.sh     # native arm
+      STAGE=3 bash run_gaps.sh                       # shuffled arm (branch runs/rescore-batch)
+      The shuffled half ran in the 2026-08-28 batch. The native CSVs exist on
+      this box and were not in that archive — send
+      outputs_ctrl_folddisj/*/*/struct_seq_metrics.csv.
+
+  Probes at block 18
+      ONLY=2 bash RUN_DEPTH_GRID.sh
+
+  Pairwise contact probes, SAE and raw (tests the co-activation assumption)
+      STAGE=11 bash RUN_MUSTRUNS.sh
+      ~1 h CPU. experiment_pairwise_probe.py already exists and is already wired
+      into RUN_MUSTRUNS stage 11, with shuffled-label and separation-matched
+      controls and a positive control.
+
+  Evaluation-distribution control
+      Already run, 2026-08-28, run_gaps.sh stage 1 -> outputs_ctrl_evaldist/.
+
+Not queued, on cost:
+  Unify frozen-dictionary depths to 11/14/18   days (retrains shared dictionaries)
+  concept-F1 on the Swiss-Prot concept set     ~68 h  (interplm_attack/)
+  Block-shuffle destruction, scaling seeds     needs pretraining
+
+All stages OK (1 run). Send tier1_results_20260903.tgz.
+STEP_END bh_nine_depths rc=0 2026-09-03T12:08:40+08:00
+QUEUE_END failed=0 2026-09-03T12:08:40+08:00
