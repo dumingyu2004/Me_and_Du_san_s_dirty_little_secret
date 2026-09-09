@@ -1,0 +1,10 @@
+{
+  "layer_dir": "outputs_synthetic/composition",
+  "n_features_evaluated": 29,
+  "n_concepts": 12,
+  "n_concepts_testF1_gt_0.5": 4,
+  "mean_top_test_f1_per_concept": 0.38817731427315555,
+  "n_features_aligned_F1_gt_0.5_both": 29,
+  "split_level": "fold",
+  "struct_corr": null
+}

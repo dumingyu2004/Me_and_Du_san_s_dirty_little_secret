@@ -1,0 +1,10 @@
+{
+  "n_features": 2560,
+  "n_pairs": 400000,
+  "mean_jaccard": 0.0424334816634655,
+  "frac_pairs_cooccur": 0.999405,
+  "rho_cooccur_vs_decoder_cos": 0.13197800101669874,
+  "null_mean": -4.328513489835704e-05,
+  "null_sd": 0.0011633271350913192,
+  "z_vs_null": 113.48595091546079
+}
